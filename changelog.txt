@@ -1,0 +1,1 @@
+v0.1.0    Versión Inicial. Último episodio, pagination /10, búsqueda por nombre, sin live-stream.
