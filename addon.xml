@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.lacafetera" name="La Cafetera" version="0.1.0" provider-name="Azogue">
+<addon id="plugin.audio.lacafetera"
+        name="La Cafetera"
+        version="0.1.1"
+        provider-name="Azogue">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -7,17 +10,17 @@
         <provides>audio</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="es_ES">AddOn para reproducir los podcasts de La Cafetera de Radiocable</summary>
-    <description lang="es_ES">Este AddOn lee los episodios de La Cafetera de Radiocable publicados en la plataforma spreaker.com, vía su API pública, y permite reproducirlos cómodamente en KODI.
+    <summary lang="es_ES">Add-on para reproducir los podcasts de La Cafetera de Radiocable</summary>
+    <description lang="es_ES">Este add-on lee los episodios de La Cafetera de Radiocable publicados en la plataforma spreaker.com, vía su API pública, y permite reproducirlos cómodamente en KODI.
 
         Que os aproveche, Resistencia!</description>
     <language>es</language>
     <disclaimer lang="es_ES">Utilízalo, modifícalo, mejóralo... como mejor gustes</disclaimer>
     <platform>all</platform>
-    <license>MIT</license>
+    <license>MIT License</license>
     <source>https://github.com/azogue/lacafetera</source>
-    <website>https://github.com/azogue/lacafetera</website>
-    <email>azogue.lab@gmail.com</email>
+    <website></website>
+    <email>azogue dot lab at gmail dot com</email>
     <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
