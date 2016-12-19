@@ -23,8 +23,7 @@ Que te aproveche, **Resistencia!**
 - En KODI, entra en **SISTEMA -> Ajustes -> Add-ons -> Instalar desde un archivo .zip**, y selecciona el archivo zip que has descargado.
 
 ## Uso remoto
-Además del uso directo, a través de los menús de KODI, es posible lanzar la orden al add-on de reproducir inmediatamente
-el último episodio disponible, permitiendo automatizar fácilmente este acto desde cualquier plataforma.
+Además del uso directo, a través de los menús de KODI, es posible lanzar la orden al add-on de reproducir inmediatamente el último episodio disponible, permitiendo automatizar fácilmente este acto desde cualquier plataforma.
 Se trata de pedir a KODI que ejecute el add-on con el parámetro `mode=playlast`.
 Desde la línea de comandos, por ejemplo, la orden es la siguiente:
 
@@ -34,10 +33,17 @@ Desde la línea de comandos, por ejemplo, la orden es la siguiente:
 
 ## Capturas de pantalla
 
+* Menú principal de KODI - Sección Música:
+![screenshot-06-music-main.jpg](https://github.com/azogue/plugin.audio.lacafetera/raw/master/resources/screenshots/screenshot-06-music-main.jpg)
+* Reproducción de episodio:
 ![screenshot-01-play-full-screen.jpg](https://github.com/azogue/plugin.audio.lacafetera/raw/master/resources/screenshots/screenshot-01-play-full-screen.jpg)
+* Índice general del add-on mostrando el último episodio, la navegación de episodios, y el comando de búsqueda:
 ![screenshot-02-index.jpg](https://github.com/azogue/plugin.audio.lacafetera/raw/master/resources/screenshots/screenshot-02-index.jpg)
+* Navegación por episodios emitidos:
 ![screenshot-03-list.jpg](https://github.com/azogue/plugin.audio.lacafetera/raw/master/resources/screenshots/screenshot-03-list.jpg)
+* Diálogo de búsqueda de episodios:
 ![screenshot-04-search-input.jpg](https://github.com/azogue/plugin.audio.lacafetera/raw/master/resources/screenshots/screenshot-04-search-input.jpg)
+* Episodios encontrados:
 ![screenshot-05-search-found.jpg](https://github.com/azogue/plugin.audio.lacafetera/raw/master/resources/screenshots/screenshot-05-search-found.jpg)
 
 - - -
