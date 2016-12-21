@@ -29,6 +29,11 @@ Desde la línea de comandos, por ejemplo, la orden es la siguiente:
 
     curl --user KODI_USER:KODI_PASSWORD --header "Content-Type: application/json" --data-binary '{"id": 1, "params": {"params": {"mode": "playlast"}, "addonid": "plugin.audio.lacafetera"}, "jsonrpc": "2.0", "method": "Addons.ExecuteAddon"}' http://KODI_IP:KODI_PORT/jsonrpc
 
+También se le puede pedir al add-on que, simplemente, ejecute la función de KODI de *despertar*: `xbmc.executebuiltin('CECActivateSource()')`, para encender el equipo al que está conectado. El parámetro en este caso es: `mode=wakeup`.
+Desde la línea de comandos sería:
+
+    curl --user KODI_USER:KODI_PASSWORD --header "Content-Type: application/json" --data-binary '{"id": 1, "params": {"params": {"mode": "wakeup"}, "addonid": "plugin.audio.lacafetera"}, "jsonrpc": "2.0", "method": "Addons.ExecuteAddon"}' http://KODI_IP:KODI_PORT/jsonrpc
+
 -----
 
 ## Capturas de pantalla
